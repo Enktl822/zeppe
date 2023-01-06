@@ -1,20 +1,23 @@
 import "../Style/header.css";
 import Zepp from "./logos/Zepp";
-import Inlogo from "../Component/logos/InLogo";
+import Inlogo from "../Component/logos/inLogo";
 
 export default function Header() {
   return (
     <div className="header container">
-      
       <div className="navbar">
-      <div className="nav-logo"><Zepp />
-        <Inlogo /></div>
+        <div className="nav-logo">
+          <Zepp />
+          <Inlogo />
+        </div>
         <ul>
           <li>
             <a href="#">PORTFOLIO</a>
           </li>
           <li>
-            <a href="#"><span>BLOG</span></a>
+            <a href="#">
+              <span>BLOG</span>
+            </a>
           </li>
           <li>
             <a href="#">CV</a>
