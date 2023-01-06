@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    margin-bottom: 110px;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main-nav ul li a span {
+    color: rgba(208, 82, 112, 1);
+    font-size: 24px;
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(208, 82, 112, 1);
+}

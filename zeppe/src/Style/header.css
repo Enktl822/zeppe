@@ -8,7 +8,6 @@
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  background-color: aquamarine;
 }
 
 .navbar {
@@ -21,10 +20,27 @@
 .header ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .header ul li a {
   text-decoration: none;
-  color: #424242;
+  color: rgba(66, 66, 66, 1);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.header ul li a span {
+  font-weight: 700;
+  color: rgba(90, 71, 171, 1);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.head-logo {
+  width: 200px;
+  padding-right: 10px;
 }
